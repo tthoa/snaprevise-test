@@ -1,0 +1,13 @@
+<div class="pro-header">
+    <tr>
+        <th style="font-weight: bold !important;" ng-repeat="title in vm.titleList track by $index">
+            <span>{{title|translate}} </span>
+            <span ng-if="vm.sortAction != undefined" class="sortHeader">
+            <i ng-model="vm.ascentFlag[$index]" ng-hide="vm.ascentFlag[$index]" class="fa fa-sort-asc  pull-right" ng-click="vm.checkSortType(title,'ASC')"></i>
+            <i ng-model="vm.ascentFlag[$index]" ng-show="vm.ascentFlag[$index]" class="fa fa-sort-desc pull-right" ng-click="vm.checkSortType(title,'DESC')"></i>
+        </span>
+        </th>
+
+        <th style="font-weight: bold !important;" ng-if="vm.actionHeader">{{'Action'|translate}}</th>
+    </tr>
+</div>

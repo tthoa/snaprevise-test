@@ -1,0 +1,106 @@
+.infor-panel {
+    border-color: #33485c;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: #fff !important;
+    border: 1px solid transparent;
+    overflow: auto;
+}
+
+.heading {
+    background-color: #33485c;
+    color: white;
+    border-color: #33485c !important;
+    font-size: 18px;
+    padding: 7px 15px;
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom: 1px solid transparent;
+}
+
+.infor-body {
+    font-size: 13px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: white;
+}
+
+.form {
+    background-color: white;
+    overflow: auto;
+}
+
+.button-group {
+    margin-bottom: 20px;
+    float: right;
+}
+
+/*.btn-normal {
+    color: #ffffff !important;
+    background-color: #33485c !important;
+    border-color: #33485c !important;
+}
+
+.btn-danger {
+    color: #ffffff !important;
+    background-color: red !important;
+    border-color: red !important;
+}*/
+
+input:hover {
+    background: #ddeeff !important;
+    cursor: pointer;
+    cursor: hand;
+}
+
+/*.btn-normal:hover {
+    background-color: #33585c !important;
+}
+
+.btn-danger:hover {
+    background-color: orangered !important;
+}
+
+.btn-create{
+    font-size: 20px !important;
+}*/
+
+.input-icon input {
+    color: #333333 !important;
+}
+
+@media (max-width:768) {
+    .infor-panel {
+        border-color: #33485c;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: auto;
+        margin-bottom: 20px;
+        background-color: #fff;
+        border: 1px solid transparent;
+        /*font-size: 13px;*/
+    }
+    .heading {
+        background-color: #33485c;
+        color: white;
+        border-color: #33485c !important;
+        font-size: 18px;
+        padding: 7px 15px;
+        border-top-right-radius: 0 !important;
+        border-top-left-radius: 0 !important;
+        border-bottom: 1px solid transparent;
+    }
+    .body {
+        font-size: 13px;
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+}

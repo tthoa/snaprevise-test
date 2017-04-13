@@ -1,0 +1,13 @@
+.newClass {
+    float: left !important;
+    margin-left: 15px !important;
+    padding-top: 15px !important;
+}
+
+.list-class .tableTitle {
+    padding-top: 15px !important;
+}
+
+.list-class .color-text {
+    color: white;
+}

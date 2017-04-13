@@ -1,0 +1,138 @@
+.tt-table {
+    margin: 20px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #2a3b4c !important;
+}
+
+.table-title {
+    color: #2a3b4c !important;
+}
+
+thead {
+    background-color: #efefef;
+    color: #777777;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.tt-table .btn-default {
+    background-color: white !important;
+    color: #2a3b4c;
+}
+
+th {
+    text-align: left!important;
+}
+
+tbody tr td {
+}
+
+td {
+    font-size: 14px;
+}
+
+tbody tr:hover {
+    background: #f0f2f5 !important;
+}
+
+.can-click {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.can-not-click {
+    cursor: pointer;
+    cursor: default;
+}
+
+.tt-table .form-control {
+    display: inline;
+}
+
+.action-column {
+    min-width: 160px;
+}
+
+.tt-table-panigation-info {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.tt-table-arrow {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.active-sorted-column {
+    /*background-color: #efefef;*/
+}
+
+.tt-table-select {
+    padding: 0 !important;
+}
+
+.tt-table-select select {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+.tt-table-record {
+    width: 100%;
+    height: 30px;
+    padding: 5px 0px;
+    font-weight: 600;
+    vertical-align: middle !important;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.check-box-td {
+    text-align: center!important;
+}
+
+.header {
+    background-image: url("/javascripts/directive/table/table-image/sort_both.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    position: relative !important;
+}
+
+.headerSortUp {
+    background-image: url("/javascripts/directive/table/table-image/sort_asc.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    position: relative !important;
+}
+
+.headerSortDown {
+    background-image: url("/javascripts/directive/table/table-image/sort_desc.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    position: relative !important;
+}
+.notification {
+ 	border-color: #5cb85c;
+ 	background: #dff0d8;
+	
+ 	margin: 50px 20px 50px 20px;
+ 	padding: 30px 30px 30px 20px;
+ 	border-left: 3px solid #5cb85c;
+ 	box-sizing: border-box;
+ 	color: #5cb85c;
+}

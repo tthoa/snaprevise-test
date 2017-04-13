@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <title>Training Tools</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <link href="bower_components/css/vendor.min.css" rel="stylesheet">
+    <link href="bower_components/css/theme-core.min.css" rel="stylesheet">
+    <link href="bower_components/css/module-essentials.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-sidebar.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-sidebar-skins.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-navbar.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-material.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-layout.min.css" rel="stylesheet" />
+
+    <link href="bower_components/css/module-messages.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-carousel-slick.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-charts.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-maps.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-colors-alerts.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-colors-background.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-colors-buttons.min.css" rel="stylesheet" />
+    <link href="bower_components/css/module-colors-text.min.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700">
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700,300">
+    <!-- inject:css -->
+    <link rel="stylesheet" href="javascripts/directive/table/tttable.css">
+    <link rel="stylesheet" href="javascripts/directive/information-page/information-page.css">
+    <link rel="stylesheet" href="javascripts/directive/pro-table/pro-body/pro-body.css">
+    <link rel="stylesheet" href="javascripts/directive/pro-table/pro-pagination/paginnation.css">
+    <link rel="stylesheet" href="javascripts/directive/pro-table/pro-header/pro-header.css">
+    <link rel="stylesheet" href="javascripts/controller/broadcast-class/class-create.css">
+    <link rel="stylesheet" href="javascripts/controller/class-list-of-student/class-list-of-student.css">
+    <link rel="stylesheet" href="javascripts/controller/class-list/class-list.css">
+    <link rel="stylesheet" href="javascripts/controller/login-page/login-page.css">
+    <link rel="stylesheet" href="javascripts/controller/core/homepage.css">
+    <!-- endinject -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/animate.css/animate.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-css-only/css/bootstrap.css" />
+    <!-- endbower -->
+</head>
+
+<body>
+    <div ui-view class="ui-view-wrapper"></div>
+</body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/js/vendor-core.min.js"></script>
+<script src="bower_components/js/vendor-countdown.min.js"></script>
+<script src="bower_components/js/vendor-tables.min.js"></script>
+<script src="bower_components/js/vendor-forms.min.js"></script>
+<script src="bower_components/js/vendor-carousel-slick.min.js"></script>
+<script src="bower_components/js/vendor-charts-flot.min.js"></script>
+<script src="bower_components/js/vendor-nestable.min.js"></script>
+<script src="bower_components/js/module-essentials.min.js"></script>
+<script src="bower_components/js/module-material.min.js"></script>
+<script src="bower_components/js/module-layout.min.js"></script>
+<script src="bower_components/js/module-sidebar.min.js"></script>
+<script src="bower_components/js/module-carousel-slick.min.js"></script>
+<script src="bower_components/js/module-messages.min.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/ngstorage/ngStorage.min.js"></script>
+<script src="bower_components/lodash/dist/lodash.min.js"></script>
+<script src="bower_components/moment/moment.js"></script>
+<script src="bower_components/moment/locale/de.js"></script>
+<script src="bower_components/angular-moment/angular-moment.js"></script>
+<script src="bower_components/es5-shim/es5-shim.js"></script>
+<script src="bower_components/ng-simple-webrtc/node_modules/simplewebrtc/latest.js"></script>
+<script src="bower_components/ng-simple-webrtc/ng-simple-webrtc.js"></script>
+<!-- inject:js -->
+<script src="javascripts/app.js"></script>
+<script src="javascripts/service/account/account.service.js"></script>
+<script src="javascripts/service/account/forgot-password.service.js"></script>
+<script src="javascripts/service/authentication/authentication.service.js"></script>
+<script src="javascripts/service/class/class.service.js"></script>
+<script src="javascripts/service/student/student.service.js"></script>
+<script src="javascripts/service/teacher/teacher.service.js"></script>
+<script src="javascripts/directive/menu/menu.directive.js"></script>
+<script src="javascripts/directive/pro-table/pro-table.directive.js"></script>
+<script src="javascripts/directive/table/table.directive.js"></script>
+<script src="javascripts/directive/information-page/information-page.directive.js"></script>
+<script src="javascripts/directive/pro-table/pro-body/pro-body.directive.js"></script>
+<script src="javascripts/directive/pro-table/pro-pagination/pagination.directive.js"></script>
+<script src="javascripts/directive/pro-table/pro-header/pro-header.directive.js"></script>
+<script src="javascripts/controller/change-password/change-password.config.js"></script>
+<script src="javascripts/controller/change-password/change-password.controller.js"></script>
+<script src="javascripts/controller/broadcast-class/class-create.config.js"></script>
+<script src="javascripts/controller/broadcast-class/class-create.controller.js"></script>
+<script src="javascripts/controller/class-list-of-student/class-list-of-student.config.js"></script>
+<script src="javascripts/controller/class-list-of-student/class-list-of-student.controller.js"></script>
+<script src="javascripts/controller/class-list/class-list.config.js"></script>
+<script src="javascripts/controller/class-list/class-list.controller.js"></script>
+<script src="javascripts/controller/login-page/login-page.config.js"></script>
+<script src="javascripts/controller/login-page/login-page.controller.js"></script>
+<script src="javascripts/controller/core/start.config.js"></script>
+<script src="javascripts/controller/core/start.controller.js"></script>
+<!-- endinject -->
+
+</html>

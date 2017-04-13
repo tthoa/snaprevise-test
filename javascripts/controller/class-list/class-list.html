@@ -1,0 +1,27 @@
+<div class="class-list">
+    <div class="page-title-breadcrumb">
+        <div class="list-class">
+            <div class="page-header pull-left tableTitle">
+                <span class="titleHeader">{{'List_Class'|translate}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="newClass" ng-if='vm.role === "Admin"'>
+        <a ui-sref="start.class-create" class="btn btn-info btn-sm">
+            <i class="fa fa-plus"></i>&nbsp; {{'Add_New_Class'|translate}}
+        </a>
+    </div>
+    <div class="newClass" ng-if='vm.role === "Supervisor"'>
+        <a ui-sref="start.class-create" class="btn btn-info btn-sm">
+            <i class="fa fa-plus"></i>&nbsp; {{'Add_New_Class'|translate}}
+        </a>
+    </div>
+    <!--table directive-->
+    <div pro-table="vm.option">
+    </div>
+    <!--end table directive-->
+
+    <div ng-if='vm.role === "Teacher"'></div>
+    <div ng-if='vm.role === "Admin" || vm.role === "Supervisor"'></div>
+
+</div>

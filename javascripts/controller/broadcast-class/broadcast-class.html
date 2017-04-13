@@ -1,0 +1,26 @@
+<div style="padding-top=50px">
+  <button ng-click="prepare()" ng-disabled="hasStream">Lấy video và mic</button>
+  <div ng-show="hasStream">
+    <broadcaster 
+        has-stream="hasStream" 
+        room-name="roomName" 
+        is-broadcasting="isBroadcasting" 
+        source-id="sourceId" 
+        min-width="minWidth">
+    </broadcaster>
+
+
+    <div ng-show="hasStream">
+      <h3>Tạo lớp và dạy</h3>
+      <input type="text" ng-model="roomName" placeholder="Enter a new room name" />
+      <button ng-click="start()" ng-disabled="!roomName || broadcasting">Start room</button>
+
+      <p ng-show="isBroadcasting"> Lớp học đã sẵn sàng
+        <a ui-sref="start.watch" target="_blank">đi tới lớp: {{roomName}} </a>
+
+      <p>Tin nhắn <input type="text" ng-model="message" placeholder="Enter message" /> học sinh <button ng-click="sendMessage()">Send</button>
+      <h5>Hội thoại</h5>
+      <p ng-repeat="mess in vm.messages">{{mess}}</p>
+    </div>
+  </div>
+</div>
